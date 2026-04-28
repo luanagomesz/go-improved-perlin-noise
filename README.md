@@ -4,8 +4,8 @@ A Go implementation of Ken Perlin's improved noise algorithm (2002), supporting 
 
 Each dimension comes in two variants:
 
-- **`PerlinNoise*`** — classic single-sample Perlin noise. Returns the raw gradient noise value for a given point. Use this when you want direct control over how the noise is sampled.
-- **`Noise*`** — fractional Brownian motion (fBm) built on top of Perlin noise. Layers multiple octaves of noise at increasing frequencies and decreasing amplitudes, producing richer and more natural-looking results. Use this for easier better results
+- **`PerlinNoise`** — classic single-sample Perlin noise. Returns the raw gradient noise value for a given point. Use this when you want direct control over how the noise is sampled.
+- **`Noise`** — fractional Brownian motion (fBm) built on top of Perlin noise. Layers multiple octaves of noise at increasing frequencies and decreasing amplitudes, producing richer and more natural-looking results. Use this for easier better results
 
 ## Installation
 
